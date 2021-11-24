@@ -16,14 +16,26 @@
     <title>Computer Science</title>
 
     <style>
-      .slidetext {
+      .ctext1 {
         background: rgba(76, 175, 80, 0.8);
-        display: inline;
+        margin-left: auto;
+        margin-right: 15%;
+        margin-top: auto;
+        margin-bottom: auto;
       }
-
-      .slidetext2 {
+      .ctext2 {
         background: rgba(76, 175, 80, 0.8);
-        display: inline;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .ctext3 {
+        background: rgba(76, 175, 80, 0.8);
+        margin-left: 30%;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
       }
 
       .bd-placeholder-img {
@@ -60,8 +72,12 @@
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1 class="slidetext">Southeastern Computer Science</h1><br />
-            <p class="slidetext2">...</p>
+            <div class="ctext1">
+              <h1>Southeastern Computer Science</h1>
+              <p>The Department of Computer Science at Southeastern Louisiana University is committed to preparing<br>
+                students to be nationally competitive both in the workforce and in graduate studies. We focus on<br>
+                providing students with the skills and experience to prepare them for a career in technology.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -70,8 +86,12 @@
 
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="slidetext">Envoc Innovation Lab</h1><br />
-            <p class="slidetext2">...</p>
+            <div class="ctext2">
+              <h1>Envoc Innovation Lab</h1>
+              <p>The lab will provide an environment for computer science majors to<br>
+                receive professional mentorship, work on client-based projects, and<br>
+                gain knowledge beyond what can be self-taught or learned in a textbook.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,8 +100,11 @@
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1 class="slidetext">iHub Workshops and Studios</h1><br />
-            <p class="slidetext2">...</p>
+            <div class ="ctext3">
+              <h1>iHub Workshops and Studios</h1>
+              <p>The iHub occupies 5,700 square feet and serves as a central point for innovative<br>
+                resources for students, faculty, alumni, and community/industry partners.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -110,21 +133,21 @@
 
         <h2>SELU Computer Science</h2>
         <p>...</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#cmps-anchor">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/envoc.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>Envoc Innovation Lab</h2>
         <p>...</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#envoc-anchor">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/selushield.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>iHub Workshops and Studios</h2>
         <p>...</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#ihub-anchor">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -132,39 +155,58 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette"><a id="cmps-anchor"></a>
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading">Southeastern<span class="text-muted"> Computer Science</span></h2>
+        <p class="lead">With 500+ students and the enrollment that has more than doubled over the past decade, 
+          Southeastern's highly-regarded Computer Science and Information Technology programs are recognized as 
+          a leader among and one of the state's fastest-growing computing and information technology programs.<br>
+          The Department of Computer Science is committed to preparing our students to be nationally competitive 
+          both in the workforce and in graduate studies. We focus on providing students with the skills and 
+          experience to prepare them for a career in technology.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/cmpsfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette"><a id="envoc-anchor"></a>
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading">Envoc<span class="text-muted"> Innovation Lab</span></h2>
+        <p class="lead">After years of integrated teaching and mentorship in college classrooms, Envoc is investing in 
+          a more permanent involvement by funding development of the new lab, said Envoc CEO Calvin Fabre. Officially 
+          opened Jan. 29, the new lab will provide a work-like environment on campus that is an extension of Envoc’s 
+          company culture and mission to create a better reality.<br>
+          “Many of our Envoceans at our Hammond office are Southeastern graduates, as am I, and we like to stay involved 
+          and create learning opportunities for future developers,” said Fabre. “We personally help develop the computer 
+          science curriculum at Southeastern, and some of our Envoceans even facilitate project classes, offering students 
+          an opportunity to work side-by-side with thriving professionals on innovative projects. The Innovation Lab 
+          enhances that experience on campus.”</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/envocfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette"><a id="ihub-anchor"></a>
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading">iHub<span class="text-muted"> Workshops and Studios</span></h2>
+        <p class="lead">The new Innovation Hub debuted November 18th in Sims Memorial Library. 
+          The iHub occupies 5,700 square feet and serves as a central point for innovative resources 
+          for students, faculty, alumni, and community/industry partners. As a highly flexible, energetic, 
+          and technologically advanced space, the iHub is designed to animate ideas, facilitate collaboration, 
+          and support both individual and team projects. The space features areas for podcasting, virtual 
+          reality development, classroom space for professional development workshops, huddle rooms and a 
+          large multi-use space for group collaborations.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/ihubfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
