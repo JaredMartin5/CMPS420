@@ -1,3 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -65,6 +69,7 @@ body {
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
+    font-family: 'Roboto Slab', serif;
     /* rtl:remove */
     letter-spacing: -.05rem;
   }
