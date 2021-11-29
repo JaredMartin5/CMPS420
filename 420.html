@@ -1,82 +1,90 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <!-- Test commit -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+<head>
+  <!-- Required meta tags -->
+  <!-- Test commit -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/favicons.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    <!-- Roboto font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/favicons.png">
 
-    <title>Computer Science</title>
+  <!-- Roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif !important;
+  <title>Computer Science</title>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif !important;
+    }
+
+    .ctext1 {
+      background: rgba(76, 175, 80, 0.8);
+      margin-left: auto;
+      margin-right: 15%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .ctext2 {
+      background: rgba(76, 175, 80, 0.8);
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .ctext3 {
+      background: rgba(76, 175, 80, 0.8);
+      margin-left: 30%;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
-      .ctext1 {
-        background: rgba(76, 175, 80, 0.8);
-        margin-left: auto;
-        margin-right: 15%;
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-      .ctext2 {
-        background: rgba(76, 175, 80, 0.8);
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: auto;
-        margin-bottom: auto;
-      }
-      .ctext3 {
-        background: rgba(76, 175, 80, 0.8);
-        margin-left: 30%;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-      }
+    }
+  </style>
 
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-
-  <body>
+<body>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/cmpsbuilding.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/cmpsbuilding.jpg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -90,7 +98,9 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/envoclab.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/envoclab.jpg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
 
         <div class="container">
           <div class="carousel-caption">
@@ -104,11 +114,13 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/ihub.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="./images/ihub.jpg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#777" />
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <div class ="ctext3">
+            <div class="ctext3">
               <h1>iHub Workshops and Studios</h1>
               <p>The iHub occupies 5,700 square feet and serves as a central point for innovative<br>
                 resources for students, faculty, alumni, and community/industry partners.</p>
@@ -137,21 +149,24 @@
     <!-- Two Rows, Five columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/lion.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/lion.png" role="img"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>SELU Computer Science</h2>
         <p>...</p>
         <p><a class="btn btn-secondary" href="#cmps-anchor">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/envoc.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/envoc.png" role="img"
+          aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>Envōc Innōvation Lab</h2>
         <p>...</p>
         <p><a class="btn btn-secondary" href="#envoc-anchor">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/selushield.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/selushield.png" role="img"
+          aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
 
         <h2>iHub Workshops and Studios</h2>
         <p>...</p>
@@ -166,15 +181,16 @@
     <div class="row featurette"><a id="cmps-anchor"></a>
       <div class="col-md-7">
         <h2 class="featurette-heading">Southeastern<span class="text-muted"> Computer Science</span></h2>
-        <p class="lead">With 500+ students and the enrollment that has more than doubled over the past decade, 
-          Southeastern's highly-regarded Computer Science and Information Technology programs are recognized as 
+        <p class="lead">With 500+ students and the enrollment that has more than doubled over the past decade,
+          Southeastern's highly-regarded Computer Science and Information Technology programs are recognized as
           a leader among and one of the state's fastest-growing computing and information technology programs.<br>
-          The Department of Computer Science is committed to preparing our students to be nationally competitive 
-          both in the workforce and in graduate studies. We focus on providing students with the skills and 
+          The Department of Computer Science is committed to preparing our students to be nationally competitive
+          both in the workforce and in graduate studies. We focus on providing students with the skills and
           experience to prepare them for a career in technology.</p>
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/cmpsfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" src="./images/cmpsfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -184,18 +200,21 @@
     <div class="row featurette"><a id="envoc-anchor"></a>
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Envōc<span class="text-muted"> Innōvation Lab</span></h2>
-        <p class="lead">After years of integrated teaching and mentorship in college classrooms, Envoc is investing in 
-          a more permanent involvement by funding development of the new lab, said Envoc CEO Calvin Fabre. Officially 
-          opened Jan. 29, the new lab will provide a work-like environment on campus that is an extension of Envoc’s 
+        <p class="lead">After years of integrated teaching and mentorship in college classrooms, Envoc is investing in
+          a more permanent involvement by funding development of the new lab, said Envoc CEO Calvin Fabre. Officially
+          opened Jan. 29, the new lab will provide a work-like environment on campus that is an extension of Envoc’s
           company culture and mission to create a better reality.<br>
-          “Many of our Envoceans at our Hammond office are Southeastern graduates, as am I, and we like to stay involved 
-          and create learning opportunities for future developers,” said Fabre. “We personally help develop the computer 
-          science curriculum at Southeastern, and some of our Envoceans even facilitate project classes, offering students 
-          an opportunity to work side-by-side with thriving professionals on innovative projects. The Innovation Lab 
+          “Many of our Envoceans at our Hammond office are Southeastern graduates, as am I, and we like to stay involved
+          and create learning opportunities for future developers,” said Fabre. “We personally help develop the computer
+          science curriculum at Southeastern, and some of our Envoceans even facilitate project classes, offering
+          students
+          an opportunity to work side-by-side with thriving professionals on innovative projects. The Innovation Lab
           enhances that experience on campus.”</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/envocfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" src="./images/envocfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
 
       </div>
     </div>
@@ -205,16 +224,17 @@
     <div class="row featurette"><a id="ihub-anchor"></a>
       <div class="col-md-7">
         <h2 class="featurette-heading">iHub<span class="text-muted"> Workshops and Studios</span></h2>
-        <p class="lead">The new Innovation Hub debuted November 18th in Sims Memorial Library. 
-          The iHub occupies 5,700 square feet and serves as a central point for innovative resources 
-          for students, faculty, alumni, and community/industry partners. As a highly flexible, energetic, 
-          and technologically advanced space, the iHub is designed to animate ideas, facilitate collaboration, 
-          and support both individual and team projects. The space features areas for podcasting, virtual 
-          reality development, classroom space for professional development workshops, huddle rooms and a 
+        <p class="lead">The new Innovation Hub debuted November 18th in Sims Memorial Library.
+          The iHub occupies 5,700 square feet and serves as a central point for innovative resources
+          for students, faculty, alumni, and community/industry partners. As a highly flexible, energetic,
+          and technologically advanced space, the iHub is designed to animate ideas, facilitate collaboration,
+          and support both individual and team projects. The space features areas for podcasting, virtual
+          reality development, classroom space for professional development workshops, huddle rooms and a
           large multi-use space for group collaborations.</p>
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./images/ihubfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+          height="500" src="./images/ihubfeature.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
 
       </div>
     </div>
@@ -231,11 +251,14 @@
     <p class="float-end"><a href="#"><button type="button" class="btn btn-success">Back To Top</button></a></p>
     <p>&middot; CMPS 420 Class &middot;</p>
   </footer>
-</main>
+  </main>
 
 
-    <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
-      
-  </body>
+
+</body>
+
 </html>
