@@ -67,8 +67,7 @@ body {
   
   /* Thin out the marketing headings */
   .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
+    margin-bottom: 1em;
     font-family: 'Roboto Slab', serif;
     /* rtl:remove */
     letter-spacing: -.05rem;
