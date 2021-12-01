@@ -48,3 +48,12 @@ mark {
     margin-top: 3em;
     color: rgb(56, 56, 56);
 }
+
+
+footer {
+    margin-top: 10%;
+    background-color: #565656;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    color: white;
+}
