@@ -2,28 +2,13 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
-.ctext1 {
-    background: rgba(76, 175, 80, 0.8);
-    margin-left: auto;
-    margin-right: 15%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.ctext2 {
-    background: rgba(76, 175, 80, 0.8);
+.center-text {
+    background: #00000077;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.ctext3 {
-    background: rgba(76, 175, 80, 0.8);
-    margin-left: 30%;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    border-radius: 0.5em;
 }
 
 .bd-placeholder-img {
