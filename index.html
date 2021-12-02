@@ -48,8 +48,21 @@
       </div>
     </div>
   </header>
-  <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "hcGt4s01q4");s.setAttribute("src", "https://cdn.userway.org/widget.js%22");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org/%22%3Ewebsite" accessibility</a></noscript>
 
+  <!-- Accessibility -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+    <script>
+    // optional init
+      window.onload = function() {
+        window.micAccessTool = new MicAccessTool({
+          link: 'http://your-awesome-website.com/your-accessibility-declaration.pdf',
+          contact: 'mailto:your-mail@your-awesome-website.com',
+          buttonPosition: 'left', // default is 'left'
+          // forceLang: 'ru-RU' // default is 'en' may be 'he-IL' or 'ru-RU'
+        });
+      }
+    </script>
+    
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
