@@ -30,7 +30,7 @@ body {
   height: 32rem;
 }
 
-.carousel-item>img {
+.carousel-item>img, .carousel-item>picture>img {
   position: absolute;
   top: 0;
   left: 0;
