@@ -84,22 +84,3 @@ footer {
 .footer-links a:active {
     color: rgb(163, 163, 163);
 }
-
-a:link {
-    color: #fff;
-  }
-  
-  a:visited {
-    color: #fff;
-
-  }
-  
-  a:hover {
-    color: #fff;
-
-  }
-  
-  a:active {
-    color: #fff;
-
-  }
