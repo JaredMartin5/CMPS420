@@ -86,13 +86,20 @@
   </header>
 
   <div class="container marketing">
-    <img
+    <picture>
+      <!-- use if possible -->
+      <source type="image/avif" srcset="./images/cs-building.avif">
+
+      <!-- fallback -->
+      <img
       width="100%"
       src="./images/cs-building.jpg"
       role="img"
       focusable="false"
       style="margin: 2em; display: block; margin-left: auto; margin-right: auto"
     />
+    </picture>
+    
     <h1 class="featurette-heading"><mark>Computer Science (Scientific)</mark></h1>
     <p class="lead">
       The Scientific Concentration provides a comprehensive computer science foundation that
