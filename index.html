@@ -27,33 +27,13 @@
   <link href="headers.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script> 
-    $(function(){
-      $("#footer").load("footer.html"); 
-    });
-    </script> 
+
 
 </head>
 
 <body>
 
-  <header class="p-3 bg-selu text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none ms-5">
-          <img width="280" height="auto" src="./images/svg/selu-header.svg" />
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 ms-5">
-          <!-- <li><a href="#" class="nav-link px-3 text-white">Home</a></li> -->
-          <li><a href="majors.html" class="nav-link px-3 text-white">Majors</a></li>
-
-        </ul>
-
-      </div>
-    </div>
-  </header>
+  <div id="header"></div>
 
 
 
@@ -252,6 +232,9 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+
 
   <!-- Accessibility -->
   <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -260,6 +243,21 @@
   <!-- go to top button-->
   <script src="./scripts/button.js"></script>
 
+
+
+  <!-- header -->
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+    </script> 
+    
+  <!-- footer -->
+  <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
 </body>
 
 </html>

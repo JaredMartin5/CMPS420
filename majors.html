@@ -5,16 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Bootstrap CSS -->
-  <link
-    href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-    crossorigin="anonymous"
-  />
-  <link
-    rel="canonical"
-    href="https://getbootstrap.com/docs/5.1/examples/carousel/"
-  />
+  <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./images/favicons.png" />
@@ -22,10 +15,7 @@
   <!-- Roboto font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 
   <title>Computer Science</title>
 
@@ -34,56 +24,10 @@
   <link href="headers.css" rel="stylesheet" />
   <link href="styles.css" rel="stylesheet" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script> 
-    $(function(){
-      $("#footer").load("footer.html"); 
-    });
-    </script> 
 </head>
-<body>
-  <header class="p-3 bg-selu text-white">
-    <div class="container">
-      <div
-        class="
-          d-flex
-          flex-wrap
-          align-items-center
-          justify-content-center justify-content-lg-start
-        "
-      >
-        <a
-          href="./index.html"
-          class="
-            d-flex
-            align-items-center
-            mb-2 mb-lg-0
-            text-white text-decoration-none
-            ms-5
-          "
-        >
-          <img width="280" height="auto" src="./images/svg/selu-header.svg" />
-        </a>
 
-        <ul
-          class="
-            nav
-            col-12 col-lg-auto
-            me-lg-auto
-            mb-2
-            justify-content-center
-            mb-md-0
-            ms-5
-          "
-        >
-          <!-- <li><a href="#" class="nav-link px-3 text-white">Home</a></li> -->
-          <li>
-            <a href="majors.html" class="nav-link px-3 text-white">Majors</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
+<body>
+  <div id="header"></div>
 
   <div class="container marketing">
     <picture>
@@ -91,21 +35,16 @@
       <source type="image/avif" srcset="./images/cs-building.avif">
 
       <!-- fallback -->
-      <img
-      width="100%"
-      src="./images/cs-building.jpg"
-      role="img"
-      focusable="false"
-      style="margin: 2em; display: block; margin-left: auto; margin-right: auto"
-    />
+      <img width="100%" src="./images/cs-building.jpg" role="img" focusable="false"
+        style="margin: 2em; display: block; margin-left: auto; margin-right: auto" />
     </picture>
-    
+
     <h1 class="featurette-heading"><mark>Computer Science (Scientific)</mark></h1>
     <p class="lead">
       The Scientific Concentration provides a comprehensive computer science foundation that
       prepares students to design and implement software to solve computing problems. It covers
       applied topics, but emphasizes theoretical understanding of computer science, including an
-      ability to use advanced mathematics to solve scientific problems and to work closely with 
+      ability to use advanced mathematics to solve scientific problems and to work closely with
       other scientists to devise new ways of using computers.
     </p>
     <h1 class="featurette-heading"><mark>Pre MBA</mark></h1>
@@ -118,19 +57,19 @@
     </p>
     <h1 class="featurette-heading"><mark>Information Technology</mark></h1>
     <p class="lead">
-     The Information Technology program at Southeastern prepares students with practical,
-     hands-on expertise to solve everyday computing problems. This new program's curriculum
-     includes theoretical computer science topics and mathematics for graduates to successfully
-     converse with other computing professionals while focusing more on applications of
-     computer science.
+      The Information Technology program at Southeastern prepares students with practical,
+      hands-on expertise to solve everyday computing problems. This new program's curriculum
+      includes theoretical computer science topics and mathematics for graduates to successfully
+      converse with other computing professionals while focusing more on applications of
+      computer science.
     </p>
     <h1 class="featurette-heading"><mark>Data Science</mark></h1>
     <p class="lead">
       The Data Science program at Southeastern is a multi-disciplinary field that mainly integrates
-      computer science, math, and information science. This concentration aims to teach how to 
+      computer science, math, and information science. This concentration aims to teach how to
       process data and utilize the processed data by means of algorithms that mimics human intellegence.
       The Data Science concentration is especially appropriate for students wishing to pursue a graduate
-      degree in data science leading ultimately to a research career or application development for data 
+      degree in data science leading ultimately to a research career or application development for data
       analysis.
     </p>
   </div>
@@ -141,21 +80,39 @@
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/caret-top.svg"
-    style="width: 1.2em;"></button>
-<!-- FOOTER -->
-<div id="footer"></div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/caret-top.svg"
+      style="width: 1.2em;"></button>
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
   </main>
   <!-- END FOOTER -->
 
   <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
   <!-- Accessibility -->
   <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
   <script src=./scripts/accessibility.js> </script>
-  
+
   <!-- go to top button-->
   <script src="./scripts/button.js"></script>
+
+  <!-- header -->
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+    });
+  </script>
+
+  <!-- footer -->
+  <script>
+    $(function () {
+      $("#footer").load("footer.html");
+    });
+  </script>
+
 </body>
